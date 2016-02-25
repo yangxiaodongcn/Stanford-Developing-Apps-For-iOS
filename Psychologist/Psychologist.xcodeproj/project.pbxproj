@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB9CD0F11C75C6BA00460721 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9CD0F01C75C6BA00460721 /* TextViewController.swift */; };
+		CB9CD0F31C75C98500460721 /* DiagnosedHappinessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9CD0F21C75C98500460721 /* DiagnosedHappinessViewController.swift */; };
+		CBEAA0961C708440000CBEB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEAA0951C708440000CBEB1 /* AppDelegate.swift */; };
+		CBEAA0981C708440000CBEB1 /* PsychologistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEAA0971C708440000CBEB1 /* PsychologistViewController.swift */; };
+		CBEAA09B1C708440000CBEB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBEAA0991C708440000CBEB1 /* Main.storyboard */; };
+		CBEAA09D1C708440000CBEB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBEAA09C1C708440000CBEB1 /* Assets.xcassets */; };
+		CBEAA0A01C708440000CBEB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBEAA09E1C708440000CBEB1 /* LaunchScreen.storyboard */; };
+		CBEAA0AB1C708440000CBEB1 /* PsychologistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEAA0AA1C708440000CBEB1 /* PsychologistTests.swift */; };
+		CBEAA0B61C708440000CBEB1 /* PsychologistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEAA0B51C708440000CBEB1 /* PsychologistUITests.swift */; };
+		CBF3D5781C70C7B30039AD2D /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF3D5761C70C7B30039AD2D /* FaceView.swift */; };
+		CBF3D5791C70C7B30039AD2D /* HappinessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF3D5771C70C7B30039AD2D /* HappinessViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBEAA0A71C708440000CBEB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBEAA08A1C708440000CBEB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBEAA0911C708440000CBEB1;
+			remoteInfo = Psychologist;
+		};
+		CBEAA0B21C708440000CBEB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBEAA08A1C708440000CBEB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBEAA0911C708440000CBEB1;
+			remoteInfo = Psychologist;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB9CD0F01C75C6BA00460721 /* TextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
+		CB9CD0F21C75C98500460721 /* DiagnosedHappinessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiagnosedHappinessViewController.swift; sourceTree = "<group>"; };
+		CBEAA0921C708440000CBEB1 /* Psychologist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Psychologist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBEAA0951C708440000CBEB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CBEAA0971C708440000CBEB1 /* PsychologistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PsychologistViewController.swift; sourceTree = "<group>"; };
+		CBEAA09A1C708440000CBEB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBEAA09C1C708440000CBEB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBEAA09F1C708440000CBEB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBEAA0A11C708440000CBEB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBEAA0A61C708440000CBEB1 /* PsychologistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PsychologistTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBEAA0AA1C708440000CBEB1 /* PsychologistTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PsychologistTests.swift; sourceTree = "<group>"; };
+		CBEAA0AC1C708440000CBEB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBEAA0B11C708440000CBEB1 /* PsychologistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PsychologistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBEAA0B51C708440000CBEB1 /* PsychologistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PsychologistUITests.swift; sourceTree = "<group>"; };
+		CBEAA0B71C708440000CBEB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBF3D5761C70C7B30039AD2D /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
+		CBF3D5771C70C7B30039AD2D /* HappinessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HappinessViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBEAA08F1C708440000CBEB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBEAA0A31C708440000CBEB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBEAA0AE1C708440000CBEB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBEAA0891C708440000CBEB1 = {
+			isa = PBXGroup;
+			children = (
+				CBEAA0941C708440000CBEB1 /* Psychologist */,
+				CBEAA0A91C708440000CBEB1 /* PsychologistTests */,
+				CBEAA0B41C708440000CBEB1 /* PsychologistUITests */,
+				CBEAA0931C708440000CBEB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBEAA0931C708440000CBEB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBEAA0921C708440000CBEB1 /* Psychologist.app */,
+				CBEAA0A61C708440000CBEB1 /* PsychologistTests.xctest */,
+				CBEAA0B11C708440000CBEB1 /* PsychologistUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBEAA0941C708440000CBEB1 /* Psychologist */ = {
+			isa = PBXGroup;
+			children = (
+				CBEAA0951C708440000CBEB1 /* AppDelegate.swift */,
+				CBEAA0971C708440000CBEB1 /* PsychologistViewController.swift */,
+				CBF3D5761C70C7B30039AD2D /* FaceView.swift */,
+				CBF3D5771C70C7B30039AD2D /* HappinessViewController.swift */,
+				CBEAA0991C708440000CBEB1 /* Main.storyboard */,
+				CBEAA09C1C708440000CBEB1 /* Assets.xcassets */,
+				CBEAA09E1C708440000CBEB1 /* LaunchScreen.storyboard */,
+				CBEAA0A11C708440000CBEB1 /* Info.plist */,
+				CB9CD0F01C75C6BA00460721 /* TextViewController.swift */,
+				CB9CD0F21C75C98500460721 /* DiagnosedHappinessViewController.swift */,
+			);
+			path = Psychologist;
+			sourceTree = "<group>";
+		};
+		CBEAA0A91C708440000CBEB1 /* PsychologistTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBEAA0AA1C708440000CBEB1 /* PsychologistTests.swift */,
+				CBEAA0AC1C708440000CBEB1 /* Info.plist */,
+			);
+			path = PsychologistTests;
+			sourceTree = "<group>";
+		};
+		CBEAA0B41C708440000CBEB1 /* PsychologistUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CBEAA0B51C708440000CBEB1 /* PsychologistUITests.swift */,
+				CBEAA0B71C708440000CBEB1 /* Info.plist */,
+			);
+			path = PsychologistUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBEAA0911C708440000CBEB1 /* Psychologist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBEAA0BA1C708440000CBEB1 /* Build configuration list for PBXNativeTarget "Psychologist" */;
+			buildPhases = (
+				CBEAA08E1C708440000CBEB1 /* Sources */,
+				CBEAA08F1C708440000CBEB1 /* Frameworks */,
+				CBEAA0901C708440000CBEB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Psychologist;
+			productName = Psychologist;
+			productReference = CBEAA0921C708440000CBEB1 /* Psychologist.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBEAA0A51C708440000CBEB1 /* PsychologistTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBEAA0BD1C708440000CBEB1 /* Build configuration list for PBXNativeTarget "PsychologistTests" */;
+			buildPhases = (
+				CBEAA0A21C708440000CBEB1 /* Sources */,
+				CBEAA0A31C708440000CBEB1 /* Frameworks */,
+				CBEAA0A41C708440000CBEB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBEAA0A81C708440000CBEB1 /* PBXTargetDependency */,
+			);
+			name = PsychologistTests;
+			productName = PsychologistTests;
+			productReference = CBEAA0A61C708440000CBEB1 /* PsychologistTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CBEAA0B01C708440000CBEB1 /* PsychologistUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBEAA0C01C708440000CBEB1 /* Build configuration list for PBXNativeTarget "PsychologistUITests" */;
+			buildPhases = (
+				CBEAA0AD1C708440000CBEB1 /* Sources */,
+				CBEAA0AE1C708440000CBEB1 /* Frameworks */,
+				CBEAA0AF1C708440000CBEB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBEAA0B31C708440000CBEB1 /* PBXTargetDependency */,
+			);
+			name = PsychologistUITests;
+			productName = PsychologistUITests;
+			productReference = CBEAA0B11C708440000CBEB1 /* PsychologistUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBEAA08A1C708440000CBEB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "杨晓冬";
+				TargetAttributes = {
+					CBEAA0911C708440000CBEB1 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8C4E67LN8W;
+					};
+					CBEAA0A51C708440000CBEB1 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8C4E67LN8W;
+						TestTargetID = CBEAA0911C708440000CBEB1;
+					};
+					CBEAA0B01C708440000CBEB1 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8C4E67LN8W;
+						TestTargetID = CBEAA0911C708440000CBEB1;
+					};
+				};
+			};
+			buildConfigurationList = CBEAA08D1C708440000CBEB1 /* Build configuration list for PBXProject "Psychologist" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBEAA0891C708440000CBEB1;
+			productRefGroup = CBEAA0931C708440000CBEB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBEAA0911C708440000CBEB1 /* Psychologist */,
+				CBEAA0A51C708440000CBEB1 /* PsychologistTests */,
+				CBEAA0B01C708440000CBEB1 /* PsychologistUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBEAA0901C708440000CBEB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBEAA0A01C708440000CBEB1 /* LaunchScreen.storyboard in Resources */,
+				CBEAA09D1C708440000CBEB1 /* Assets.xcassets in Resources */,
+				CBEAA09B1C708440000CBEB1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBEAA0A41C708440000CBEB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBEAA0AF1C708440000CBEB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBEAA08E1C708440000CBEB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB9CD0F11C75C6BA00460721 /* TextViewController.swift in Sources */,
+				CBEAA0981C708440000CBEB1 /* PsychologistViewController.swift in Sources */,
+				CBEAA0961C708440000CBEB1 /* AppDelegate.swift in Sources */,
+				CB9CD0F31C75C98500460721 /* DiagnosedHappinessViewController.swift in Sources */,
+				CBF3D5791C70C7B30039AD2D /* HappinessViewController.swift in Sources */,
+				CBF3D5781C70C7B30039AD2D /* FaceView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBEAA0A21C708440000CBEB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBEAA0AB1C708440000CBEB1 /* PsychologistTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBEAA0AD1C708440000CBEB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBEAA0B61C708440000CBEB1 /* PsychologistUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBEAA0A81C708440000CBEB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBEAA0911C708440000CBEB1 /* Psychologist */;
+			targetProxy = CBEAA0A71C708440000CBEB1 /* PBXContainerItemProxy */;
+		};
+		CBEAA0B31C708440000CBEB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBEAA0911C708440000CBEB1 /* Psychologist */;
+			targetProxy = CBEAA0B21C708440000CBEB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBEAA0991C708440000CBEB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBEAA09A1C708440000CBEB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBEAA09E1C708440000CBEB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBEAA09F1C708440000CBEB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBEAA0B81C708440000CBEB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBEAA0B91C708440000CBEB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBEAA0BB1C708440000CBEB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Psychologist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yangxiaodong.Psychologist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CBEAA0BC1C708440000CBEB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Psychologist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yangxiaodong.Psychologist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CBEAA0BE1C708440000CBEB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PsychologistTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yangxiaodong.PsychologistTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Psychologist.app/Psychologist";
+			};
+			name = Debug;
+		};
+		CBEAA0BF1C708440000CBEB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PsychologistTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yangxiaodong.PsychologistTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Psychologist.app/Psychologist";
+			};
+			name = Release;
+		};
+		CBEAA0C11C708440000CBEB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PsychologistUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yangxiaodong.PsychologistUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Psychologist;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CBEAA0C21C708440000CBEB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PsychologistUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yangxiaodong.PsychologistUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Psychologist;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBEAA08D1C708440000CBEB1 /* Build configuration list for PBXProject "Psychologist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBEAA0B81C708440000CBEB1 /* Debug */,
+				CBEAA0B91C708440000CBEB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBEAA0BA1C708440000CBEB1 /* Build configuration list for PBXNativeTarget "Psychologist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBEAA0BB1C708440000CBEB1 /* Debug */,
+				CBEAA0BC1C708440000CBEB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBEAA0BD1C708440000CBEB1 /* Build configuration list for PBXNativeTarget "PsychologistTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBEAA0BE1C708440000CBEB1 /* Debug */,
+				CBEAA0BF1C708440000CBEB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBEAA0C01C708440000CBEB1 /* Build configuration list for PBXNativeTarget "PsychologistUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBEAA0C11C708440000CBEB1 /* Debug */,
+				CBEAA0C21C708440000CBEB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBEAA08A1C708440000CBEB1 /* Project object */;
+}

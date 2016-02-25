@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Happiness/HappinessViewController.swift"
+            timestampString = "477129126.015215"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "HappinessViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Happiness.HappinessViewController.happiness.materializeForSet : Swift.Int"
+                  moduleName = "Happiness"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yangxiaodong/Developer/Projects/StanfordDevelopingAppsForiOSDemo/Happiness/Happiness/HappinessViewController.swift"
+                  timestampString = "477126728.559756"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Happiness.HappinessViewController.init (Happiness.HappinessViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; Happiness.HappinessViewController"
+                  moduleName = "Happiness"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yangxiaodong/Developer/Projects/StanfordDevelopingAppsForiOSDemo/Happiness/Happiness/HappinessViewController.swift"
+                  timestampString = "477126728.562183"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "138">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Happiness.HappinessViewController.init (Happiness.HappinessViewController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Happiness.HappinessViewController&gt;"
+                  moduleName = "Happiness"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yangxiaodong/Developer/Projects/StanfordDevelopingAppsForiOSDemo/Happiness/Happiness/HappinessViewController.swift"
+                  timestampString = "477126728.562392"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "73">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Happiness/HappinessViewController.swift"
+            timestampString = "477129126.015215"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "HappinessViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Happiness.HappinessViewController.init (Happiness.HappinessViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; Happiness.HappinessViewController"
+                  moduleName = "Happiness"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yangxiaodong/Developer/Projects/StanfordDevelopingAppsForiOSDemo/Happiness/Happiness/HappinessViewController.swift"
+                  timestampString = "477126780.687801"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "138">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Happiness.HappinessViewController.init (Happiness.HappinessViewController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Happiness.HappinessViewController&gt;"
+                  moduleName = "Happiness"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yangxiaodong/Developer/Projects/StanfordDevelopingAppsForiOSDemo/Happiness/Happiness/HappinessViewController.swift"
+                  timestampString = "477126780.688044"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "73">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Happiness/HappinessViewController.swift"
+            timestampString = "477129126.015215"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "HappinessViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Happiness.HappinessViewController.happiness.materializeForSet : Swift.Int"
+                  moduleName = "Happiness"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yangxiaodong/Developer/Projects/StanfordDevelopingAppsForiOSDemo/Happiness/Happiness/HappinessViewController.swift"
+                  timestampString = "477126731.254926"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Happiness.HappinessViewController.init (Happiness.HappinessViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; Happiness.HappinessViewController"
+                  moduleName = "Happiness"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yangxiaodong/Developer/Projects/StanfordDevelopingAppsForiOSDemo/Happiness/Happiness/HappinessViewController.swift"
+                  timestampString = "477126731.255407"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "138">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Happiness.HappinessViewController.init (Happiness.HappinessViewController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Happiness.HappinessViewController&gt;"
+                  moduleName = "Happiness"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yangxiaodong/Developer/Projects/StanfordDevelopingAppsForiOSDemo/Happiness/Happiness/HappinessViewController.swift"
+                  timestampString = "477126731.25562"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "73">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Happiness/HappinessViewController.swift"
+            timestampString = "477129126.015215"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "HappinessViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
